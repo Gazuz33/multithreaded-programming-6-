@@ -35,6 +35,9 @@ public class Field extends JPanel {
 // Вызвать версию метода, унаследованную от предка
         super.paintComponent(g);
         Graphics2D canvas = (Graphics2D) g;
+        canvas.drawString("Constructor",71,100);
+        canvas.drawString("Teleport",1245,100);
+        canvas.drawString("Destructor",1242,580);
 // Последовательно запросить прорисовку от всех мячей из списка
         for (BouncingBall ball: balls) {
             ball.paint(canvas);

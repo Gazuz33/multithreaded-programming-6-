@@ -23,6 +23,7 @@ public class BouncingBall implements Runnable {
 
     // Конструктор класса BouncingBall
     public BouncingBall(Field field) {
+        
 // Необходимо иметь ссылку на поле, по которому прыгает мяч,
 // чтобы отслеживать выход за его пределы через getWidth(), getHeight()
         this.field = field;
